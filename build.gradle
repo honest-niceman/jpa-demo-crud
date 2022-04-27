@@ -29,7 +29,6 @@ flyway {
 	user = 'postgres'
 	password = 'password'
 	baselineOnMigrate=true
-	baselineVersion=0
 }
 
 tasks.named('test') {
